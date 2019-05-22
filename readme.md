@@ -12,3 +12,22 @@ serve ./dist
 ```bash
 yarn test
 ```
+
+## Upload JSON file sample (See `/sample.json`)
+```json
+{
+    "location": "CA",
+    "products": [
+        {
+            "name": "book",
+            "price": 17.99,
+            "quantity": 1
+        },
+        {
+            "name": "potato chips",
+            "price": 3.99,
+            "quantity": 1
+        }
+    ]
+}
+```
